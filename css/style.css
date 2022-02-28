@@ -4,6 +4,41 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:400,700");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;0,900;1,100&display=swap');
 
+
+@-webkit-keyframes preloader {
+  0% {
+    transform: perspective(160px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(160px) rotateX(0deg) rotateY(0deg);
+  }
+
+  50% {
+    transform: perspective(160px) rotateX(-180deg) rotateY(0deg);
+    -webkit-transform: perspective(160px) rotateX(-180deg) rotateY(0deg);
+  }
+
+  100% {
+    transform: perspective(160px) rotateX(-180deg) rotateY(-180deg);
+    -webkit-transform: perspective(160px) rotateX(-180deg) rotateY(-180deg);
+  }
+}
+
+@keyframes preloader {
+  0% {
+    transform: perspective(160px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(160px) rotateX(0deg) rotateY(0deg);
+  }
+
+  50% {
+    transform: perspective(160px) rotateX(-180deg) rotateY(0deg);
+    -webkit-transform: perspective(160px) rotateX(-180deg) rotateY(0deg);
+  }
+
+  100% {
+    transform: perspective(160px) rotateX(-180deg) rotateY(-180deg);
+    -webkit-transform: perspective(160px) rotateX(-180deg) rotateY(-180deg);
+  }
+}
+
 body {
   line-height: 1.7;
   font-family: "Roboto", sans-serif;
@@ -129,8 +164,8 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .btn-solid-border:hover {
-  border-color: #e1a34c;
-  background: #e1a34c;
+  border-color: #dc3545;
+  background: #dc3545;
 }
 
 .btn-main-border {
@@ -845,6 +880,43 @@ h3.s_border {
   color: white;
 }
 
+
+
+/*======= Preloader =======*/
+#preloader {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: #111;
+	z-index: 99999;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+#preloader #loading-center {
+	width: 200px;
+	height: 200px;
+}
+
+#preloader #object {
+	width: 80px;
+	height: 80px;
+	background-color: #dc3545;
+	-webkit-animation: preloader 1.2s infinite ease-in-out;
+	animation: preloader 1.2s infinite ease-in-out;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 60px;
+}
 
 
 

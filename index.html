@@ -28,10 +28,19 @@
 
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
+  <!-- Animation -->
+  <link rel="stylesheet" href="css/animation.css">
 
 </head>
 
 <body class="portfolio" id="top">
+
+	 <!--====== Start Preloader ======-->
+	 <div id="preloader">
+        <div id="loading-center">
+            <div id="object"></div>
+        </div>
+    </div>
 
 
 <!-- Navigation start -->
@@ -303,82 +312,45 @@
 			<div class="post_gallery owl-carousel owl-theme">
 				<div class="item">
 					<div class="portfolio-item position-relative">
-						<img src="images/portfolio/3.jpg" alt="" class="img-fluid">
+						<img src="images/portfolio/cat1@2x.png" alt="" class="img-fluid">
 
 						<div class="portoflio-item-overlay">
-							<a href="portfolio-single.html"><i class="ti-plus"></i></a>
+							<a href="portfolio-single-cat.html"><i class="ti-plus"></i></a>
 						</div>
 					</div>
 					<div class="text mt-3">
-						<h4 class="mb-1 text-capitalize">Web development</h4>
-						<p class="text-uppercase letter-spacing text-sm">wordpress</p>
+						<h4 class="mb-1 text-capitalize">Design</h4>
+						<p class="text-uppercase letter-spacing text-sm">Illustrator</p>
 					</div>
 				</div>
 				<div class="item">
 					<div class="portfolio-item position-relative">
-						<img src="images/portfolio/4.jpg" alt="" class="img-fluid">
+						<img src="images/portfolio/3dtext.jpg" alt="" class="img-fluid">
 
 						<div class="portoflio-item-overlay">
-							<a href="portfolio-single.html"><i class="ti-plus"></i></a>
+							<a href="portfolio-single-3dtext.html"><i class="ti-plus"></i></a>
 						</div>
 					</div>
 					<div class="text mt-3">
-						<h4 class="mb-1 text-capitalize">Web development</h4>
-						<p class="text-uppercase letter-spacing text-sm">wordpress</p>
+						<h4 class="mb-1 text-capitalize">Design</h4>
+						<p class="text-uppercase letter-spacing text-sm">illustrator</p>
 					</div>
 				</div>
 				<div class="item">
 					<div class="portfolio-item position-relative">
-						<img src="images/portfolio/5.jpg" alt="" class="img-fluid">
+						<img src="images/portfolio/web.png" alt="" class="img-fluid">
 
 						<div class="portoflio-item-overlay">
-							<a href="portfolio-single.html"><i class="ti-plus"></i></a>
+							<a href="portfolio-single-web.html"><i class="ti-plus"></i></a>
 						</div>
 					</div>
 					<div class="text mt-3">
-						<h4 class="mb-1 text-capitalize">Web development</h4>
-						<p class="text-uppercase letter-spacing text-sm">wordpress</p>
+						<h4 class="mb-1 text-capitalize">Web Development</h4>
+						<p class="text-uppercase letter-spacing text-sm">DES WEB</p>
 					</div>
 				</div>
-				<div class="item">
-					<div class="portfolio-item position-relative">
-						<img src="images/portfolio/6.jpg" alt="" class="img-fluid">
-
-						<div class="portoflio-item-overlay">
-							<a href="portfolio-single.html"><i class="ti-plus"></i></a>
-						</div>
-					</div>
-					<div class="text mt-3">
-						<h4 class="mb-1 text-capitalize">Web development</h4>
-						<p class="text-uppercase letter-spacing text-sm">wordpress</p>
-					</div>
-				</div>
-				<div class="item">
-					<div class="portfolio-item position-relative">
-						<img src="images/portfolio/1.jpg" alt="" class="img-fluid">
-
-						<div class="portoflio-item-overlay">
-							<a href="portfolio-single.html"><i class="ti-plus"></i></a>
-						</div>
-					</div>
-					<div class="text mt-3">
-						<h4 class="mb-1 text-capitalize">Web development</h4>
-						<p class="text-uppercase letter-spacing text-sm">wordpress</p>
-					</div>
-				</div>
-				<div class="item">
-					<div class="portfolio-item position-relative">
-						<img src="images/portfolio/2.jpg" alt="" class="img-fluid">
-
-						<div class="portoflio-item-overlay">
-							<a href="portfolio-single.html"><i class="ti-plus"></i></a>
-						</div>
-					</div>
-					<div class="text mt-3">
-						<h4 class="mb-1 text-capitalize">Web development</h4>
-						<p class="text-uppercase letter-spacing text-sm">wordpress</p>
-					</div>
-				</div>
+				
+				
 			</div>
 		</div>
 	</div>
@@ -501,8 +473,11 @@
     =====================================-->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
-	<script src="./js/jpreLoader.min.js"></script>
+		<!-- preloader -->
+	<script src="js/jpreLoader.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- <script src="js/easing.js"></script>  -->
+	<script src="js/designesia.js"></script> <!-- cần -->
     <!-- Main jQuery -->
     <script src="plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap 4.3.1 -->
@@ -521,6 +496,20 @@
     <script src="plugins/aos/aos.js"></script>
     <script src="js/script.js"></script>
    <script src="js/ajax-contact.js"></script>
+
+   <!-- App js -->
+   <script src="./js/app.js"></script>
+   
+
+
+
+   
+  
+
+
+   
+
+   
 
   </body>
   </html>
