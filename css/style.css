@@ -282,6 +282,10 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   color: #dc3545;
 }
 
+.vlue{
+  margin-left: 10px;
+}
+
 .letter-spacing {
   letter-spacing: 1px;
 }
