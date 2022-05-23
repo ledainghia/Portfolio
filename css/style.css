@@ -366,8 +366,7 @@ a:hover, a:focus {
 .slider-img:before {
   position: absolute;
   content: "";
-  right: -20px;
-  top: 20px;
+
   border: 10px solid rgba(255, 255, 255, 0.6);
   width: 100%;
   height: 100%;
@@ -739,9 +738,7 @@ a:hover, a:focus {
   .post-share a {
     margin-bottom: 5px;
   }
-  .slider-img:before {
-    right: -6px;
-  }
+  
 }
 
 @media (max-width: 400px) {
@@ -780,9 +777,7 @@ a:hover, a:focus {
   .post-share a {
     margin-bottom: 5px;
   }
-  .slider-img:before {
-    right: -6px;
-  }
+  
 }
 
 
