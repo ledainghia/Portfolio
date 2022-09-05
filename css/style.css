@@ -684,6 +684,10 @@ a:hover, a:focus {
   opacity: 1;
 }
 
+.aboutme {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 /*=== MEDIA QUERY ===*/
 @media (max-width: 768px) {
   .navbar-toggler {
@@ -916,6 +920,8 @@ h3.s_border {
 	margin-left: auto;
 	margin-top: 60px;
 }
+
+
 
 
 
